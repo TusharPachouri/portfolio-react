@@ -65,7 +65,7 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Tushar Pachouri`} <br></br>
+                    {`Hi! I'm Anmol Jain`} <br></br>
 
                     <span
                       className="txt-rotate"
@@ -77,7 +77,7 @@ export const Banner = () => {
                   </h1>
 
                   <p>
-                    Greetings! I'm Tushar Pachouri, a passionate WEB DEVELOPER
+                    Greetings! I'm Anmol Jain, a passionate WEB DEVELOPER
                     with a mission to turn visions into remarkable realities.
                     Welcome to my digital realm, where creativity meets
                     functionality, and ideas transform into captivating
@@ -96,10 +96,10 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
+                    isVisible ? "animate__animated " : ""
                   }
                 >
-                  {/* <img src={headerImg} alt="Header Img" /> */}
+                   <img src={headerImg} alt="Header Img" />
                 </div>
               )}
             </TrackVisibility>
